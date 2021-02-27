@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3678961297437551294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3678961297437551289}
+  - component: {fileID: 3678961297437551290}
+  - component: {fileID: 3678961297437551291}
+  - component: {fileID: 3678961297437551288}
+  m_Layer: 5
+  m_Name: CardOpen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3678961297437551289
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3678961297437551294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 262, y: 339}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3678961297437551290
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3678961297437551294}
+  m_CullTransparentMesh: 0
+--- !u!114 &3678961297437551291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3678961297437551294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 8b754399bebd4410d99fccab710ae4bd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3678961297437551288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3678961297437551294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59fbf2349f154f2c863e1ff136aba59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  commonCards:
+  - {fileID: 21300000, guid: 8b754399bebd4410d99fccab710ae4bd, type: 3}
+  - {fileID: 21300000, guid: 507c5f8b46901408ea298ebb63f7be96, type: 3}
+  - {fileID: 21300000, guid: b3c3db485167d4f3b9593b9c0b7a1050, type: 3}
+  - {fileID: 21300000, guid: 2c16783c6c6c54318aa8f8d258801ab7, type: 3}
+  - {fileID: 21300000, guid: 5a14ba1baee7844bdbbffa70fd7f6a67, type: 3}
+  - {fileID: 21300000, guid: 6cf0d09f0eeb94f0189592c8131d4548, type: 3}
+  - {fileID: 21300000, guid: 6a6d051a29dec4b5a90f634f4231ade3, type: 3}
+  - {fileID: 21300000, guid: 901f71afb88364eaba0d62b03f31d6c8, type: 3}
+  - {fileID: 21300000, guid: 7161efd37e1be4572a61536fe00fc54d, type: 3}
+  - {fileID: 21300000, guid: 343b5e5118d2e4e0b8285b02f4ea372b, type: 3}
+  - {fileID: 21300000, guid: df3b2708054c744feb4af968f0a7fe28, type: 3}
+  - {fileID: 21300000, guid: d39794f2c35a14a7db8456d3462950f0, type: 3}
+  - {fileID: 21300000, guid: 1ebf28f3bc4f448b88f4e1aa752b9e3d, type: 3}
+  rareCards:
+  - {fileID: 21300000, guid: ad88a1b38086b4a92ba15506d33d12f7, type: 3}
+  - {fileID: 21300000, guid: 4d27cbac99fc441948fbd2385c15f556, type: 3}
+  - {fileID: 21300000, guid: 71a4aea11623c432f83c7522a50249f1, type: 3}
+  - {fileID: 21300000, guid: 6ecaac0445bfc47ecb47a749b0060afd, type: 3}
+  - {fileID: 21300000, guid: fc8c2b5d96c244a599520810326226cf, type: 3}
+  - {fileID: 21300000, guid: e9d1bd641ee13403ead44b04f1fbe3f8, type: 3}
+  - {fileID: 21300000, guid: 9b9bf617e0fc549a1a2877ed5b863042, type: 3}
+  - {fileID: 21300000, guid: e1ef4460f1b2a4c558257e2c84d702fc, type: 3}
+  - {fileID: 21300000, guid: dc0880bac69d048b885b9e60d9fd830c, type: 3}
+  legendryCards:
+  - {fileID: 21300000, guid: e2552ba30108b4e58beafff70e596b86, type: 3}
+  - {fileID: 21300000, guid: c0d9eb82cb5dc4f8bb613afc5a45f642, type: 3}
+  - {fileID: 21300000, guid: e25592e6603904951816f21a2a0fd9f7, type: 3}
+  - {fileID: 21300000, guid: e32cf27beb83a4ff7963601b0f21a260, type: 3}
+  - {fileID: 21300000, guid: cda49e1b6c77d482686e3c91c50b02e1, type: 3}
+  - {fileID: 21300000, guid: fc48aa59d61e94f3692dde06c0fcfbb8, type: 3}
+  cardImage: {fileID: 3678961297437551291}

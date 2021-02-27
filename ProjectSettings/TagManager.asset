@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - movingPlatform
+  - Bird
+  - spike
+  - guarbage
+  - smoke
+  - pole
+  - ray
+  - burnCar
+  - plastic
+  - fireWheel
+  - snow
+  - uicanvas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - bg
+  - mountain
+  - player
+  - groundLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: mountain1
+    uniqueID: 2553710523
+    locked: 0
+  - name: mount2
+    uniqueID: 864711771
+    locked: 0
+  - name: tilebase
+    uniqueID: 3251220553
+    locked: 0
+  - name: tile
+    uniqueID: 4059563249
+    locked: 0
+  - name: player
+    uniqueID: 2896591699
+    locked: 0
